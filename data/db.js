@@ -27,6 +27,7 @@ function insert(user) {
 }
 
 function update(id, user) {
+  d;
   return db("users")
     .where("id", Number(id))
     .update(user);
